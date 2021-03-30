@@ -1,0 +1,15 @@
+SAT
+Reading;Writing;Math, No Calculator;Math, Calculator
+52;44;20;38
+
+ACT
+English;Math;Reading;Science
+75;60;40;40
+
+PSAT
+Reading;Writing;Math, No Calculator;Math, Calculator
+47;44;17;31
+
+PSAT10
+Reading;Writing;Math, No Calculator;Math, Calculator
+47;44;17;31
