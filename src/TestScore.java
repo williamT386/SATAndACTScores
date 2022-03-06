@@ -29,6 +29,23 @@ public class TestScore {
 
         calculateFinalScaledScores();
         printScaledScores();
+
+        double sum = 0;
+        double min = 1600;
+        double max = 0;
+        for(int i = 0; i < finalScaledScores[0].size(); i++) {
+            sum += finalScaledScores[2].get(i);
+            if(finalScaledScores[2].get(i) < min)
+                min = finalScaledScores[2].get(i);
+            if(finalScaledScores[2].get(i) > max)
+                max = finalScaledScores[2].get(i);
+        }
+        sum /= finalScaledScores[0].size();
+
+        System.out.println();
+        System.out.printf("Average: %.2f%n", sum);
+        System.out.println("Max: " + max);
+        System.out.println("Min: " + min);
     }
 
     /**
